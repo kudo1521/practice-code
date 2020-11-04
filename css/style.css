@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+body {
+    background-color: #e0e0e0;
+}
+
+header {
+    background: #e0e0e0;
+    height: 600px;
+}
+
+header h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 180px;
+    font-family: "Helvetica Neue",
+        Arial,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+    font-weight: bold;
+    line-height: 0.8;
+    letter-spacing: 0.5;
+}
+
+header h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.top-wrappper {
+    background-color: #2e2727;
+    height: 500px;
+}
+
+.contents {
+    height: 1000px;
+    width: 50%;
+    max-width: 1465px;
+    margin: 0 auto;
+}
+/* コンテンツ１ */
+.content-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    border-bottom: 1px solid darkgray;
+}
+
+.content-1 img {
+    width: 35%;
+    height: 350px;
+}
+
+.content-1-text {
+    width: 60%;
+}
+
+.content-1-top {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.content-1-sentence {
+    font-size: 13px;
+    line-height: 2;
+}
+/* コンテンツ２ */
+.content-2 {
+    padding: 50px 0;
+    border-bottom: 1px solid darkgray;
+}
+.content-2 img {
+    width: 100%;
+    height: 350px;
+}
+.content-2-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.content-2-section {
+    width: 47%;
+}
+.content-2-top {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.content-2-sentence {
+    font-size: 12px;
+    line-height: 2;
+}
+/* コンテンツ３ */
+.content-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    border-bottom: 1px solid darkgray;
+}
+
+.content-3 img {
+    width: 35%;
+    height: 250px;
+}
+
+.content-3-text {
+    width: 60%;
+}
+
+.content-3-top {
+    font-size: 33px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.content-3-sentence {
+    font-size: 13px;
+    line-height: 2;
+}
