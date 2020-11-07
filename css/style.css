@@ -150,3 +150,51 @@ header h2 {
     font-size: 12px;
     line-height: 1.5;
 }
+/* コンテンツ５ */
+.content-5 {
+    padding: 50px 0;
+    border-bottom: 1px solid darkgray;
+}
+.content-5 iframe {
+    width: 100%;
+}
+.content-5-section-1 {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: #333333;
+    margin-bottom: 40px;
+}
+.content-5-text-1 {
+    padding: 50px 15px;
+}
+.content-5-top-1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.content-5-sentence-1 {
+    font-size: 12px;
+    line-height: 1.5;
+}
+.content-5-section-2 {
+    display: flex;
+}
+.content-5-section-2 img {
+    width: 30%;
+    height: 80px;
+}
+.content-5-item {
+    display: flex;
+    width: 50%;
+}
+.content-5-text-2 {
+    padding: 0 20px;
+}
+.content-5-top-2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.content-5-sentence-2 {
+    font-size: 12px;
+    line-height: 1.5;
+}
