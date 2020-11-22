@@ -242,8 +242,7 @@ header h2 {
 /* フッター */
 .fotter-item {
     display: flex;
-    padding-left: 400px;
-    padding-top: 50px;
+    margin: 100px auto;
 }
 .fotter-1 {
     height: 380px;
@@ -259,9 +258,6 @@ header h2 {
     padding-top: 20px;
     text-align: center;
     font-size: 12px;
-}
-.fotter-contents {
-    padding-right: 130px;
 }
 .fotter-contents-title {
     padding-bottom: 30px;
@@ -420,8 +416,9 @@ header h2 {
         height: 300px;
     }
     .fotter-contents {
-        padding-right: 0;
-    }
+        display: flex;
+        justify-content: space-between;
+        }
     .fotter-item {
         padding: 10px 0;
         display: block;
