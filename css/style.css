@@ -243,6 +243,9 @@ header h2 {
 .fotter-item {
     display: flex;
     margin: 100px auto;
+    width: 100%;
+    max-width: 500px;
+    justify-content: space-between;
 }
 .fotter-1 {
     height: 380px;
@@ -418,6 +421,8 @@ header h2 {
     .fotter-contents {
         display: flex;
         justify-content: space-between;
+        max-width: 1000px;
+        width: 100%;
         }
     .fotter-item {
         padding: 10px 0;
