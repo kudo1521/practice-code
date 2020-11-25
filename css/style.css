@@ -416,25 +416,17 @@ header h2 {
     }
     /* フッター */
     .fotter-1 {
-        height: 300px;
-    }
-    .fotter-contents {
-        display: flex;
-        justify-content: space-between;
-        max-width: 1000px;
-        width: 100%;
-        }
-    .fotter-item {
-        padding: 10px 0;
-        display: block;
-        margin: 0 auto;
+        height: 170px;
     }
     .fotter-contents-title {
         font-size: 12px;
         padding: 10px 0;
     }
+    .fotter-item {
+        margin: 10px auto;
+    }
     .fotter-contents-text p {
-        font-size: 10px;
+        font-size: 11px;
     }
     .fotter-2 {
         height: 40px;
