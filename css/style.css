@@ -36,7 +36,7 @@ header h2 {
     height: 500px;
 }
 
-.contents {
+.contents-wrap {
     width: 55%;
     max-width: 1465px;
     margin: 0 auto;
@@ -51,7 +51,7 @@ header h2 {
 
 .content-1 img {
     width: 35%;
-    height: 350px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -97,41 +97,12 @@ header h2 {
     font-size: 12px;
     line-height: 2;
 }
-/* コンテンツ３ */
-.content-3 {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 0;
-    border-bottom: 1px solid darkgray;
-}
-
-.content-3 img {
-    width: 35%;
-    height: 250px;
-    object-fit: cover;
-}
-
-.content-3-text {
-    width: 60%;
-}
-
-.content-3-text h3{
-    font-size: 33px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-.content-3-sentence {
-    font-size: 13px;
-    line-height: 2;
-}
 /* コンテンツ4 */
-.content-4 {
-    display: flex;
-    justify-content: space-between;
+.contents-4-wrap {
     padding: 50px 0;
     border-bottom: 1px solid darkgray;
+    display: flex;
+    justify-content: space-between;
 }
 .content-4-section {
     width: 32%;
@@ -152,83 +123,21 @@ header h2 {
 }
 /* コンテンツ５ */
 .content-5 {
-    padding: 50px 0;
-    border-bottom: 1px solid darkgray;
+    max-width: 1000px;
 }
-.content-5 iframe {
+.content-5 iframe{
     width: 100%;
 }
-.content-5-section-1 {
+.contents-5-wrap {
     display: flex;
-    justify-content: space-between;
-    color: #ffffff;
-    background-color: #333333;
-    margin-bottom: 40px;
+    max-width: 1000px;
 }
-.content-5-text-1 {
-    padding: 50px 15px;
-}
-.content-5-text-1 h3 {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-.content-5-sentence-1 {
-    font-size: 12px;
-    line-height: 1.5;
-}
-.content-5-section-2 {
+.content-5-section {
     display: flex;
-}
-.content-5-section-2 img {
-    width: 30%;
-    height: 80px;
-    object-fit: cover;
-}
-.content-5-item {
-    display: flex;
-    width: 50%;
-}
-.content-5-text-2 {
-    padding: 0 20px;
-}
-.content-5-text-2 h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-.content-5-sentence-2 {
-    font-size: 12px;
-    line-height: 1.5;
-}
-/* コンテンツ６ */
-.content-6 {
-    padding-bottom: 50px;
-    border-bottom: 1px solid darkgray;
-}
-.content-6 h3 {
-    font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-.content-6-item {
-    display: flex;
-    justify-content: space-between;
-}
-.content-6-section {
-    width: 30%;
-}
-.content-6-section img {
     width: 100%;
-    height: 230px;
-    margin-bottom: 30px;
-    object-fit: cover;
 }
-.content-6-item h4 {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-.content-6-sentence {
-    font-size: 12px;
-    line-height: 1.5;
+.content-5-section img {
+    width: 30%;
 }
 /* コンテンツ７ */
 .content-7 {
