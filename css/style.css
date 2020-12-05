@@ -42,34 +42,34 @@ header h2 {
     max-width: 1465px;
     margin: 0 auto;
 }
+/* 全体 */
+.item {
+    padding: 50px 0;
+}
+p {
+    font-size: 13px;
+    line-height: 2;
+}
+img {
+    object-fit: cover;
+}
 /* コンテンツ１ */
 .content-1 {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0;
-    border-bottom: 1px solid darkgray;
 }
-
 .content-1 img {
     width: 35%;
-    height: 100%;
-    object-fit: cover;
 }
-
-.content-1-text {
-    width: 60%;
+/* シングルラップ */
+.contents-single-wrap {
+    margin: 30px;
 }
-
-.content-1-text h3 {
+.contents-single-wrap h3 {
     font-size: 35px;
     margin-bottom: 20px;
-    font-weight: bold;
     line-height: 1.5;
-}
-
-.content-1-sentence {
-    font-size: 13px;
-    line-height: 2;
+    font-weight: bold;
 }
 /* コンテンツ２ */
 .content-2 {
@@ -98,27 +98,36 @@ header h2 {
     font-size: 12px;
     line-height: 2;
 }
+/* コンテンツ３ */
+.content-3 {
+    display: flex;
+    justify-content: space-between;
+}
+.content-3 img {
+    width: 35%;
+}
+
 /* コンテンツ4 */
-.contents-4-wrap {
+.contents-triple-wrap {
     padding: 50px 0;
     border-bottom: 1px solid darkgray;
     display: flex;
     justify-content: space-between;
 }
-.content-4-section {
+.content-tirple-section {
     width: 32%;
 }
-.content-4-section img {
+.content-tirple-section img {
     width: 100%;
     height: 200px;
     margin-bottom: 30px;
     object-fit: cover;
 }
-.content-4 h3 {
+.content-tirple h3 {
     font-size: 20px;
     margin-bottom: 20px;
 }
-.content-4-sentence {
+.content-tirple p {
     font-size: 12px;
     line-height: 1.5;
 }
@@ -143,19 +152,14 @@ header h2 {
     width: 100%;
     margin: 30px 0;
 }
-.content-5-text {
-    margin: 15px;
+.content-5-item h3 {
+    font-size: 15px;
+    margin: 0;
 }
-.content-5-section img {
-    width: 30%;
-}
-/* コンテンツ６ */
-.content-6 h3 {
-    margin-top: 30px;
-    margin-bottom: 0;
-}
-.content-6-wrap {
-    padding-top: 20px;
+.content-5-item img {
+    width: 25%;
+    height: 50%;
+    margin: auto;
 }
 /* コンテンツ７ */
 .content-7 {
